@@ -1,0 +1,14 @@
+{
+    "name": "mamun/web-course",
+    "description": "A package to provide course and course lissions",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Al-Mamun Sarkar",
+            "email": "almamun.csit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
