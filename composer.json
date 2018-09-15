@@ -1,6 +1,6 @@
 {
     "name": "mamun/web-course",
-    "description": "A package to provide course and course lissions",
+    "description": "A package to provide course and course lessons",
     "type": "project",
     "license": "MIT",
     "authors": [
