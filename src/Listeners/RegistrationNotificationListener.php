@@ -5,8 +5,9 @@ namespace WebCourse\Listeners;
 use WebCourse\Events\RegistrationEvent;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use WebCourse\Notifications\RegistrationNotification;
 
-class RegistrationNotificationListener
+class RegistrationNotificationListener implements shouldQueue
 {
     /**
      * Create the event listener.
@@ -26,6 +27,6 @@ class RegistrationNotificationListener
      */
     public function handle(RegistrationEvent $event)
     {
-        //
+        $event->user->notify(new RegistrationNotification());
     }
 }
