@@ -10,5 +10,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WebCourse\\WebCourseServiceProvider",
+                "WebCourse\\Providers\\WebCourseEventServiceProvider"
+            ]
+        }
+    }
 }
